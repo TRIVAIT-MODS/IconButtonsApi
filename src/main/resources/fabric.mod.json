@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "iconbuttonsapi",
+	"version": "${version}",
+	"name": "IconButtonsApi",
+	"description": "API for easily adding buttons to the Icon Buttons row in the main menu and pause menu",
+	"authors": [
+		"TRIVAIT"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/iconbuttonsapi/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"org.trivait.iba.IconButtonsApi"
+		]
+	},
+	"mixins": [
+		"iconbuttonsapi.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
