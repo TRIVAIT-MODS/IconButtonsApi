@@ -3,13 +3,14 @@
 	"id": "iconbuttonsapi",
 	"version": "${version}",
 	"name": "IconButtonsApi",
-	"description": "API for easily adding buttons to the Icon Buttons row in the main menu and pause menu",
+	"description": "API for easily adding buttons to the Icon Buttons row in the title menu and pause menu",
 	"authors": [
 		"TRIVAIT"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/user/Trivait",
+		"sources": "https://github.com/TRIVAIT-MODS/IconButtonsApi",
+		"issues": "https://github.com/TRIVAIT-MODS/IconButtonsApi/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/iconbuttonsapi/icon.png",

@@ -2,13 +2,20 @@
 	"required": true,
 	"package": "org.trivait.iba.mixin",
 	"compatibilityLevel": "JAVA_25",
+	"mixinextras": {
+		"minVersion": "0.5.4"
+	},
 	"mixins": [
-		
+
 	],
 	"injectors": {
 		"defaultRequire": 1
 	},
 	"overwrites": {
 		"requireAnnotations": true
-	}
+	},
+	"client": [
+		"PauseScreenMixin",
+		"TitleScreenMixin"
+	]
 }
