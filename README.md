@@ -73,6 +73,6 @@ public class ExampleModClient implements ClientModInitializer {
 
 ###  Features 
 * **Automatic Positioning**: You don't need to specify coordinates (`X` and `Y`) for your widgets. The API calculates and applies positioning automatically, arranging your buttons into a neat row.
-* **Size**: It is recommended to use `IconButtons.getButtonWidthAndHeight()` (returns `20`) for the correct size to ensure your icons fit perfectly alongside vanilla social, feedback, and bug report icons.
+* **Size**: It is recommended to use `IconButtons.getButtonWidthAndHeight()` (returns `20`) for the correct size to ensure your icons fit perfectly alongside vanilla icons.
 
 ![Icon Buttons Example](./preview.png)
